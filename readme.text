@@ -1,0 +1,12 @@
+** NODE API
+
+1. first of all issue this command <npm i> , to install all the package dependencies in dev environment.
+2. <npm run build> can be used to generate the routes and for compilation use command 
+3. and now its time to run the api., USE <npm run start> now open the browser and go to <http://localhost:3000>
+4.and our api is configured with `swagger`, <http://localhost:3000/docs> this endpoint can be used to test the api.
+
+NOTE**
+1. express framework is used.
+2. to persist data i have used mongo db, created one db resource for this assignment. here .., <https://cloud.mongodb.com/>
+and have configured temp access. 
+3. The project and organization csv are dumped into the same db.
